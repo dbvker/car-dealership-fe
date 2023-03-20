@@ -1,0 +1,1 @@
+export const bodyStyles = ['SUV', 'Truck', 'Sedan', 'Crossover', 'Coupe', 'Convertible', 'Van', 'Wagon', 'Hybrid', 'Electric'];

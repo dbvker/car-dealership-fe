@@ -1,0 +1,102 @@
+.inventory-wrapper {
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 0.75rem;
+}
+
+.inventory-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0 1rem;
+}
+
+.inventory-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.inventory-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.75rem;
+}
+
+.item-container {
+    border: 1.5px solid #00000020;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    transition: 350ms;
+    cursor: pointer;
+    position: relative;
+}
+
+.item-container:hover {
+    border: 1.5px solid #00000080;
+    transition: 350ms;
+}
+
+.favorite-icon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    color: #828282;
+    transition: 350ms;
+}
+
+.favorite-icon:hover {
+    color: #FE251B;
+    transition: 350ms;
+}
+
+.hearted {
+    color: #FE251B;
+    transition: 350ms;
+}
+
+.item-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #00000020;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.item-container > p {
+    margin: 0 0.75rem;
+}
+
+.item-make, .item-model {
+    color: #439D7B;
+}
+
+.item-make {
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.item-model {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.item-mileage {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.item-price {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}

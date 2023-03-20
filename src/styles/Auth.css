@@ -1,0 +1,101 @@
+.auth-wrapper {
+    background-color: #f0f1f3;
+    height: 100vh;
+}
+
+.auth-container {
+    width: 500px;
+    max-width: 90%;
+    margin-inline: auto;
+    border: 1.5px solid #00000020;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.auth-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.auth-container label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+}
+
+.auth-container label input {
+    outline: none;
+    border: 1px solid #00000020;
+    border-radius: 0.25rem;
+    padding: 10px 15px;
+}
+
+.auth-container label .auth-error {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: crimson;
+  margin: 0;
+}
+
+.auth-container label .auth-error .error-icon {
+  height: 20px;
+}
+
+
+.error {
+  border-color: crimson !important;
+  color: crimson;
+}
+
+.auth-container button {
+    outline: none;
+    border: none;
+    background-color: #439d7b;
+    color: white;
+    border-radius: 0.25rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.auth-container button:hover {
+  background-color: #378164;
+}
+
+.forgot-pass-text {
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sign-up-text {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 14px;
+}
+
+p span {
+    color: #439d7b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p span:hover {
+    color: #378164;
+}
